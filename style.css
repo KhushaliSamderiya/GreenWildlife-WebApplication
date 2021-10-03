@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
 /* font-family: 'Dancing Script', cursive; */
 :root{
-    --primary-color: #FCA5A5;
+    --primary-color: #34D399;
     --primary-white: white;
 }
 
@@ -17,17 +17,16 @@ html{
 }
 
 header{
-    background-image: url("Images/BgHome.jpg");
-  
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 .container-caption{
     text-align: center;
-    padding-top: 7rem;
+    margin-top: 15rem;
     color:white;
     font-family: 'Dancing Script', cursive;
     font-size: x-large;
