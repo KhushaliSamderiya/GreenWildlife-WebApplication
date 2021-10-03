@@ -6,7 +6,14 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Home | GreenWildLife</title>
     <link rel="icon" href="Images/logo01.png">
-    <link rel="stylesheet" href= "style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 </head>
 <body>
@@ -20,14 +27,25 @@
                         <li class="list-item-inline">
                             <a class="link link-active" href="#">Home</a>
                         </li>
+                        
                         <li class="list-item-inline">
-                            <a class="link" href="#">Blog</a>
+                            <a class="link" href="#aboutus">About us</a>
                         </li>
                         <li class="list-item-inline">
-                            <a class="link" href="#">Community</a>
+                            <a class="link" href="#blog">Blog</a>
                         </li>
                         <li class="list-item-inline">
-                            <a class="link" href="#">Google Maps</a>
+                            <div class="dropdown" style="background-color: transparent;">
+                                <button class="dropbtn"> 
+                                    <i class="far fa-user-circle"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                  <a href="login.html">Login</a>
+                                  <a href="register.html">Register</a><hr/>
+                                  <a href="Logout" style="margin-top: -2rem;">Logout</a>
+                                 
+                                </div>
+                              </div>
                         </li>
                         </ul>
                  </nav>
@@ -46,17 +64,65 @@
         </div>
        
 </header>
-<section>
+<section id="aboutus" style="background-color:;">
+    <div class="blogs">
+    <h2>A little about us</h2>
+    <div class="desc">
+    <p>
+        Wildlife belongs in the wild.  When they can’t be returned to the wild, they deserve the highest quality welfare we can provide them in captivity.  This means regular enrichment that encourages natural behaviors and keeps the animals healthy both mentally and physically. Shelter, food, medicine and entertainment, just like humans, animals require and deserve these basic needs for a healthy, safe and fun life.  Each month, in addition to utility bills, habitat maintenance and building maintenance, the animals who live at sanctuaries require over 1000 pounds of meat weekly, $2,000 a month  for medicines and veterinary care, $200 per week  for produce, $50 for eggs, the list goes on… Without the thoughtfulness and generosity of donors and the animal advocate community, the level of care the animals receive at GreenWildlLife Sanctuary would not be possible.We direct all our funds to provide animals the basic amenities and care. It would be generous of you to donate amount.
+    </p>
+    </div>
+    <span>
+        <a href="donate.html" class="link link-secondary" style="color: black; margin-left: 35rem;" >
+         Donate </a>
+        </span>
+    </div>
+    </section>
+
+<section class="" id="blog">
  <!-- section for blogs -->
-
-</section>
-
-<section>
-<!-- section for Funding -->
-</section>
-
-<section>
-<!-- section for Google Maps -->
+ <div class="blogs">
+    <h2>BLOGS</h2>
+    <div class="desc">
+    <p>
+      The preservation & protection of wildlife and the environment are
+      paramount in our goals. Keepers of the Wild nature park is a forever
+      home to rescued captive wildlife. Visit Keepers Today. Save the Animals
+      today. Wildlife Preservation. Support Animal Welfare.
+    </p>
+    <div class="carousel-div1" style="margin-left: -5rem;">
+    <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 18rem;">
+      <img src="https://media.istockphoto.com/photos/group-of-african-elephants-in-the-wild-picture-id1128748845?b=1&k=20&m=1128748845&s=170667a&w=0&h=i1lg97xHhpBe9i10AFCzI6cVrTssq9DgWzz-5udPnBc=" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Conserve elephants. They hold a scientific mirror up to humans</h5>
+        <p class="card-text">The symbol of the World Wide Fund for Nature is a giant panda. The p...</p>
+        <a href="#" class="btn btn-primary">See More</a>
+      </div>
+    </div>
+    <div class="card shadow-lg p-3 mb-5 bg-body rounded mid-card" style="width: 18rem;">
+      <img src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFuZGF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">PANDA BISCUITS FOR JIAO QING</h5>
+        <p class="card-text">The special biscuits - which serve as an additional source of nutrients - are prepared by our animal keepers according...</p>
+        <a href="#" class="btn btn-primary">See More</a>
+      </div>
+    </div>
+    <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 18rem;">
+      <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Wanna know more about jungle? Come we will give you a ride !!</h5>
+        <p class="card-text">A jungle is a forest thick with trees, other plants, and animals.Jungles — thick...</p>
+        <a href="#" class="btn btn-primary">See More</a>
+      </div>
+    </div>
+    <span>
+      <a href="explore.html" class="link link-secondary" style="color: black; margin-left: 50rem;" >
+        Explore more </a>
+    
+    </span>
+  </div>
+  </div>
+  </div>
 </section>
 
 <footer class="footer">
